@@ -1,0 +1,18 @@
+key in
+messagedlg('Hanya bisa input angka.',mtInformation,[mbOK],0);
+    key:=#0;
+
+data kosong
+messagedlg('Data tidak boleh kosong.',mtWarning,[mbOK],0);
+
+edit
+messagedlg('Data berhasil diedit.', mtInformation, [mbOK],0);
+
+baru
+messagedlg('Data berhasil disimpan.', mtInformation, [mbOK],0);
+
+ada
+messagedlg('Data sudah ada, ingin diedit', mtConfirmation, [mbYes,mbNo], 0)
+
+combo
+messagedlg('Pilih data dengan cara tekan tombol panah di samping.', mtInformation, [mbOK],0);
