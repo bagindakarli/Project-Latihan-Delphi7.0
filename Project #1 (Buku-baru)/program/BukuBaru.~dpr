@@ -1,0 +1,15 @@
+program BukuBaru;
+
+uses
+  Forms,
+  UnitBuku in 'UnitBuku.pas' {fbuku},
+  UnitEditBuku in 'UnitEditBuku.pas' {feditbuku};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(Tfbuku, fbuku);
+  Application.CreateForm(Tfeditbuku, feditbuku);
+  Application.Run;
+end.
